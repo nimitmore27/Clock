@@ -54,7 +54,7 @@ playbtn.onclick = function () {
             clearInterval(swtimeout);
         }
     }
-    else{ //working here
+    else{
         if (playbtn.className == "fa-solid fa-play") {
             block();
             playbtn.className = "fa-solid fa-pause";
