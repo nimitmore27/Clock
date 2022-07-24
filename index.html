@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f462297f0f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <a id="clock" >Clock</a>
+        <a id="stopwatch" >StopWatch</a>
+        <a id="countdown" >CountDown</a>
+    </header>
+    <div class="container">
+        <div class="watch-body">
+            <div class="watch-display">
+                <input type="number" onpaste="return false" class="box" id="inhour" min="0" value="00">:
+                <input type="number" onpaste="return false" class="box" id="inmin" min="0" value="00">:
+                <input type="number" onpaste="return false" class="box" id="insec" min="0" value="00">
+            </div>
+            <div class="btndiv">
+                <div id="controls">
+                    <i class="fa-solid fa-flag btns" id="lapbtn"></i>
+                    <i class="fa-solid fa-play" id="play-pausebtn"></i>
+                    <i class="fa-solid fa-stop btns" id="stopbtn"></i>
+                    <!-- <i class="fa-solid fa-pause"></i> -->
+                </div>
+            </div>
+        </div>
+        <div class="lap-div">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
