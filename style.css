@@ -65,6 +65,7 @@ a:hover {
     font-size: 2em;
     font-weight: bolder;
 }
+
 .box {
     width: 20%;
     height: 65%;
@@ -120,9 +121,26 @@ input::-webkit-inner-spin-button {
     width: 95%;
     height: 50%;
     border: 2px solid var(--fontnborder);
-    border-radius: 15px;
+    border-radius: 10px;
     margin: 10px 0px;
     overflow-y: auto;
+}
+
+.lap-div::-webkit-scrollbar {
+    width: 15px;
+}
+
+.lap-div::-webkit-scrollbar-track {
+    background: var(--conbg);
+    border: 2px solid var(--conbg);
+    border-radius: 20px;
+
+}
+
+.lap-div::-webkit-scrollbar-thumb {
+    background-color: var(--fontnborder);
+    border-radius: 20px;
+    border: 2px solid var(--mainbg);
 }
 
 .new-lap {
